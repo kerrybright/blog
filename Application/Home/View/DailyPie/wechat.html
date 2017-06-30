@@ -1,0 +1,32 @@
+<extend name="Common/base"/>
+
+<block name="main">
+	<foreach name="wechatList" item="wechat">
+		<div style="width:100%;min-width:800px;margin-top: 10px;height:90px;background-color: white">
+			<div style="width:10%;float: left;padding: 10px;">
+				<a href="{$wechat['url']}" target="_blank">
+					<img style="height: 70px;width: 100px;" src="{$wechat['firstImg']}">
+				</a>
+			</div>
+
+			<div style="width:90%;float: left;padding-top: 30px;padding-left: 20px;">
+				<h1 style="font-size: 16px;font-weight: bolder"><a target="_blank" href="{$wechat['url']}">{$wechat['title']}</a></h1>
+				<p>
+					来源：{$wechat['source']}
+				</p>
+				</p>
+			</div>
+		</div>
+	</foreach>
+</block>
+
+<block name="loadCss">
+    <include file="Common/loadCss"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/__PUBLIC__/plugins/layui-v1.0.9/css/layui.css?v=3.3.5" rel="stylesheet">
+</block>
+<block name="Js">
+    <script src="/__PUBLIC__/plugins/layui-v1.0.9/layui.js"></script>
+    <script type="text/javascript">
+    </script>
+</block>

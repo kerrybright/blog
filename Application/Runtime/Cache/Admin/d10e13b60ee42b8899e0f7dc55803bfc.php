@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>操作成功!正在刷新页面...<script type="text/javascript">window.parent.location.reload();</script>

@@ -1,0 +1,73 @@
+<extend name="Common/base"/>
+
+<block name="main">
+    <form class="layui-form" action="__CONTROLLER__/send" method="post" style="width: 50%;text-align: center;margin-left: 25%;">
+        <div class="layui-form-item">
+            <label class="layui-form-label" style="width:100px;">发送至：</label>
+            <label class="layui-form-label" style="width:100px;">aiboms@163.com</label>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label" style="width:100px;">发送人：</label>
+            <div class="layui-input-block">
+                <input type="text" name="name" lay-verify="title" placeholder="请输入您的称呼"  autocomplete="off" class="layui-input" value="">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label" style="width:100px;">您的邮箱：</label>
+            <div class="layui-input-block">
+                <input type="text" name="email" id="email" lay-verify="email" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label" style="width:100px;">主题：</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" id="titles" lay-verify="title" placeholder="请输入邮件主题" autocomplete="off" class="layui-input" value="">
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label" style="width:100px;">正文：</label>
+            <div class="layui-input-block">
+                <textarea name="content" placeholder="请输入内容" id="content" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="formEmail">立即提交</button>
+                <input type="reset" class="layui-btn layui-btn-primary"/>
+            </div>
+        </div>
+    </form>
+</block>
+
+<block name="loadCss">
+    <include file="Common/loadCss"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/__PUBLIC__/plugins/layui-v1.0.9/css/layui.css?v=3.3.5" rel="stylesheet">
+</block>
+<block name="Js">
+    <script src="/__PUBLIC__/js/excanvas.js?v=1.0"></script>
+    <script src="/__PUBLIC__/js/jquery.tagcanvas.js?v=1.0"></script>
+    <script src="/__PUBLIC__/plugins/layui-v1.0.9/layui.js"></script>
+    <script type="text/javascript">
+        layui.use('form', function(){
+            var form = layui.form();
+
+            //监听提交
+            form.on('submit(formEmail)', function(data){
+                var msg = '';
+                if(!$('#titles').val()){
+                    layer.msg('请输入主题');
+                    return false;
+                }
+                if(!$('#email').val()){
+                    layer.msg('请输入邮箱');
+                    return false;
+                }
+                if(!$('#content').val()){
+                    layer.msg('请输入正文');
+                    return false;
+                }
+            });
+        });
+    </script>
+</block>

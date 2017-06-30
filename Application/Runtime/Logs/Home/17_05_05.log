@@ -1,0 +1,2235 @@
+[ 2017-05-05T00:02:33+08:00 ] 42.236.99.130 /?/people/Lavender
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-05-05T00:02:34+08:00 ] 42.236.99.166 /?/topic/Js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-05-05T00:05:40+08:00 ] 42.236.10.112 /?/topic/Android
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-05-05T00:05:41+08:00 ] 42.236.10.76 /?/category-1__sort_type-unresponsive
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-05-05T02:24:54+08:00 ] 123.125.71.114 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-05-05T03:29:59+08:00 ] 183.57.53.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-05-05T04:58:14+08:00 ] 112.90.82.218 /?/topic/Android
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-05-05T07:53:26+08:00 ] 220.181.108.104 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-05-05T09:10:52+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-05-05T09:14:53+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-05-05T09:17:01+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-05-05T09:30:19+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-05-05T09:32:27+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-05-05T09:32:37+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-05-05T09:32:44+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =35 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-05-05T09:33:14+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-05T09:33:22+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =33 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-05-05T09:41:37+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =33 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-05-05T09:41:42+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-05-05T09:42:04+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-05-05T09:42:05+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-05-05T09:43:29+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-05-05T09:43:30+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-05-05T09:43:32+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-05-05T09:55:03+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-05-05T10:07:15+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-05-05T10:14:34+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-05-05T10:14:36+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-05-05T10:14:36+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-05-05T10:15:17+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-05-05T10:19:41+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-05-05T10:33:28+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-05-05T10:53:26+08:00 ] 123.125.71.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-05-05T10:54:45+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-05T10:54:49+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-05-05T11:16:25+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-05-05T11:16:26+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-05-05T11:22:17+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-05-05T13:01:34+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-05-05T13:01:35+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-05-05T13:27:54+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-05-05T13:28:02+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-05-05T13:28:03+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-05-05T13:28:04+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-05-05T13:28:10+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-05-05T13:28:20+08:00 ] 122.188.209.210 /index.php/DailyPie/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-05-05T13:28:21+08:00 ] 122.188.209.210 /index.php/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-05-05T13:28:43+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-05-05T13:37:38+08:00 ] 122.188.209.210 /index.php/DailyPie/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-05-05T13:39:38+08:00 ] 122.188.209.210 /index.php/DailyPie/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-05-05T13:39:39+08:00 ] 122.188.209.210 /index.php/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-05-05T13:45:42+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-05-05T13:45:43+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-05-05T13:46:33+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =35 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-05-05T13:46:39+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-05-05T14:17:13+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =35 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-05-05T14:17:17+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-05-05T14:17:21+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =35 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-05-05T14:17:55+08:00 ] 122.188.209.210 /index.php/Article/detail?article_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =35 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-05-05T14:17:59+08:00 ] 122.188.209.210 /index.php/Article/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-05-05T14:18:25+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-05-05T14:25:23+08:00 ] 122.188.209.210 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-05-05T14:25:23+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-05-05T14:25:59+08:00 ] 122.188.209.210 /index.php/DailyPie/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-05-05T14:26:00+08:00 ] 122.188.209.210 /index.php/DailyPie/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-05-05T18:23:45+08:00 ] 220.181.108.113 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-05-05T18:57:06+08:00 ] 220.181.108.107 /index.php/DailyPie/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-05-05T19:05:02+08:00 ] 122.188.209.210 /index.php/Home/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-05-05T19:05:02+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-05-05T19:05:17+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-05-05T19:05:51+08:00 ] 113.108.67.23 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:06:01+08:00 ] 101.226.33.200 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:06:46+08:00 ] 122.188.209.210 /index.php/WoList/listApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0003s ]
+
+[ 2017-05-05T19:06:52+08:00 ] 101.226.33.223 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:25:11+08:00 ] 101.226.66.193 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:48:40+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493984919595&times=&sign=7dfefe1ca387a70055b554a321ecbdae&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:48:45+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493984924616&times=&sign=25444cef70eaa3c1740b8f6dd230fd75&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0002s ]
+
+[ 2017-05-05T19:48:52+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493984931485&times=&sign=84d0dcd2f03ee3a21268bc4d5cf3b841&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:48:58+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493984937636&times=&sign=ead1c92af419619cfcbce3fc3c7b6911&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:49:20+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493984955605&times=&sign=bbbdc4fbed3e148a52732e6865fb91a5&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:49:28+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493984967306&times=&sign=11cbb0e902b3d9f7ed46e44317e1b91a&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:56:24+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-05-05T19:58:09+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493985488938&times=&sign=9ed172a1ada74d6efeb92434994d2cb9&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T19:59:12+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493985551362&times=&sign=39648e8e3d317e217d6ae419f68e2591&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:04:14+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493985853046&times=&sign=72890b9c6fced00535c80efa370287dc&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:06:15+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493985944574&times=&sign=f1c9fb12bffd25efb12e377f691f61e9&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:06:38+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493985997437&times=&sign=d990c06dc4165ca87839869ff77400e6&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:06:50+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986009347&sign=a40b1fd97c60915f4f8182a764c49f79
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:07:03+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986022562&sign=5e202f03fffada6a57df7e9ee3dd8b32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:07:30+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986049456&sign=5a9f399ec669eff600b5d187304e0867
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:08:38+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986117726&sign=24ca67fce2146312a04a24dec83b79df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-05T20:09:14+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986153678&sign=ede9190a873dc8261825ef83e2fb0c02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:09:30+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986169613&sign=38833ce3627505ec42768d818f84df86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:09:40+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493986179256&times=&sign=5491013146a3290dff1244f27d1fb223&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0002s ]
+
+[ 2017-05-05T20:09:42+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986181987&sign=aee96873fce5304105335d974c0db472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-05T20:12:16+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493986335163&times=&sign=e4f852f1ffae8bbb726f29808eec32aa&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:12:56+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986357234&sign=97790946e5eb382f255c2cd15022a8b5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:18:35+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493986714279&times=&sign=3e884d6d34f1715a8fda5f7e6bfab0fd&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0003s ]
+
+[ 2017-05-05T20:18:38+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493986717388&sign=809fc64369cd450be7a081b046f0d057
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-05-05T20:18:44+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493986723713&times=&sign=b350eac48b4a8cee91fb2cbc708dc704&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:29:58+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-05T20:31:54+08:00 ] 122.188.209.210 /index.php/WoList/listApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:39:11+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493987951008&times=&sign=f4b60ff2e7a0bc2fbec06c1c4817aa88&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:39:38+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493987977867&sign=d659f3e8716b10d7bf005b5f44695fd9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:12+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493988011938&times=&sign=b9e31885546f9dc80009a440bce1a68d&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0002s ]
+
+[ 2017-05-05T20:40:15+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988014881&sign=7266007434324ad8dde91408512f24d4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:23+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988022752&sign=379f685c14437f481142b46038c3f3b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:33+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493988032988&times=&sign=8c1132e120eaff955fd2c043df9cd299&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:38+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988037221&sign=045b5547993afe6aa8d1d29af4cbb7c4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:46+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988045447&sign=fc5c758142dffb2c660264171cd06e0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:48+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988048006&sign=035e627a4ec67badbfcae18a5ae81c91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:40:51+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988050498&sign=f17fcd549482fa4deb913260eff6f2db
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:41:03+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988062173&sign=df6f1d12e66e76054e19b904e3b3ea82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:41:08+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988067166&sign=a7acaf9d5580d7bc081dc3d0dfc011ba
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:41:12+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988071766&sign=7f763a5ecb519bbf41be59e83a94bea5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:42:12+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988131300&sign=650464d099685c4fb89f5c27594e3052
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:49:13+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988552497&sign=ed6b83d2f17d90e7c43ddf9bf8aab77d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-05T20:49:29+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493988568311&times=&sign=804322c79d490c71416e620d71017296&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0002s ]
+
+[ 2017-05-05T20:49:36+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988575099&sign=46c5a86dab7ff85c85050499c628c55a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:49:56+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988595618&sign=68dd5c1ae49e281d1d2f6c8a344b1325
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:53:15+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493988794707&times=&sign=e6ff637aef3fa99eb613561639090d93&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0003s ]
+
+[ 2017-05-05T20:53:19+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988798032&sign=075894f42df0b7751e6e7b5edf8a26f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-05T20:53:48+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988827168&sign=0ec63f20cbe1fc42e5a7452e4b6f9c95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:54:02+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988841424&sign=66004e8670826fa500fe54c95593b56d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:56:11+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493988970935&sign=22ae0ee777c344993e3754706a1b4779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000258s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:58:53+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989132380&sign=61e028d5a9ab7338482cde58b37793fc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:59:01+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493989140251&times=&sign=27d7f6d5fff61d76f00d7447b002c982&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:59:04+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989143884&sign=bded5c905183243504f52eb880724f90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:59:31+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989170256&sign=3661f997b68b0b0b9b37b5acc2435abe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T20:59:38+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989177115&sign=b992e972136be46d7ba8363e55c9c5fe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:02:29+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493989348923&times=&sign=26495ebfa6855b57f80840063febfbff&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0003s ]
+
+[ 2017-05-05T21:02:35+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989354436&sign=6a79404d244db4cd08793103b47ae76b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:05:43+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989542874&sign=85b90ca61500850d4a0d97a9b3133a15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:06:02+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989561221&sign=e28a215eaa8b21aa3977c1734879ff8b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:08:05+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493989684227&times=&sign=77ce1e12bbb56c291983d819355770b1&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:08:42+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493989714161&sign=a6a1bdfc28a0900ce24f1253c6808f42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:14:16+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990055249&times=&sign=dffdc8c1d1b9382ebecda1a65c7c8959&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:14:19+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990058941&sign=c32dba02247f1b76df21a290e20c63d2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:15:05+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990105062&sign=2479d62090399c38b9dd423466a416fb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:17:30+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990249517&times=&sign=16542e2d462163fab4ed9aa2b2626c6a&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:17:37+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990256216&sign=4371d0aed52fe8e870cb5bb9c2ba7078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:19:17+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990357010&sign=18ab6a4ca06fef44af71b7060fb3cc17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:20:06+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990405740&sign=3e3356ae6e2164ece1db0a2d5937331c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:20:58+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990457692&times=&sign=812e359b88f60ff7986e67d82226653e&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:21:08+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990461711&sign=5466ec2286ea6d0fcf98ca9df14191cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-05T21:27:52+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990871477&times=&sign=7e64ac7a82cee96e48cf19b2d8911119&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:27:55+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990874795&sign=6e19dc57cd992c1fd9e0c6aa42ce16e8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:28:06+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990885909&times=&sign=dbbbf423ee18f476e396ba2c764506be&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:28:47+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990926079&times=&sign=b935d6eb97d4c43cffe22f31613e947a&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:28:59+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990930736&sign=e1a1d5ed2967e801f813a7e19212095f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:29:34+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:29:34+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-05-05T21:29:49+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493990988339&times=&sign=1320f74dd48ed85a5c33cec7760a81ab&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:29:58+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493990990253&sign=d757583ba08ba26ca3cb0b01bdbaf043
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:32:19+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:32:20+08:00 ] 122.188.209.210 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-05-05T21:33:43+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991222631&times=&sign=9b142649d72e51c6bdd54ef213c127be&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:33:45+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991225053&sign=457e698638ef9dce4d8479d9a166d1ae
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:34:11+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991250798&sign=db2299830d6c10bb3b9866ed539f8e26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:34:52+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991291703&sign=75ba900c73f3463eb291a4591f1b4063
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:35:01+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991300826&times=&sign=46c6b3415a75067400c2318ab0a75835&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:35:07+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991306745&sign=3d129e90e9d31c78de10b22bc681126e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:35:16+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991315516&times=&sign=0c6cf0c265f63a2b78c17d17b10017c2&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:35:23+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991322900&times=&sign=f44a2e6f8d442aa07b082baaa84275ff&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:35:28+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991327471&sign=29de42d555c7c3f910532a324170f951
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:35:41+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991341019&sign=c9045e7896d22174e7def6d8e8050ee9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:36:20+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991379852&times=&sign=cd1db846d9ea678b8b7ac4eff8ebe1cf&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:36:22+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991381246&sign=2cabaa86aaae5d388b3c494ee865df6c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:36:34+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991393134&sign=ce91df1d456d516482309038e7b338b4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:37:23+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991442269&times=&sign=45df951ef5d55d4f37355ec636a27a62&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:37:26+08:00 ] 122.188.209.210 /index.php/WoDetail/detailApi?id=1&token=&timestamp=1493991445733&sign=0d7402cd60c38146f892b536373db3c5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_wo_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:37:47+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991466312&times=&sign=844bab25779d0ebeedf1d212c2150a4b&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:38:28+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991506701&times=&sign=3a15c3353eb23e076d7ca159086b66c4&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T21:40:00+08:00 ] 122.188.209.210 /index.php/WoList/listApi?timestamp=1493991599950&times=&sign=0357f6481790e98012d6d84bac67657b&reward=&region_id=&page=1&cataid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `zl_wo_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zl_wo_list`  [ RunTime:0.0001s ]
+
+[ 2017-05-05T22:29:49+08:00 ] 42.236.99.9 /index.php/Index/journal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-05-05T22:29:49+08:00 ] 42.236.99.30 /?/is_recommend-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-05-05T22:29:49+08:00 ] 42.236.10.100 /index.php/ContactUs/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-05T22:29:49+08:00 ] 42.236.99.206 /?/people/zliang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-05-05T22:29:49+08:00 ] 42.236.99.218 /?/topic/%E5%89%8D%E7%AB%AF%E4%B9%8B%E8%B7%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `zl_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_article` WHERE `deleted` = 0 AND `disabled` = 0 ORDER BY created_time  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zl_index_display` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zl_index_display` WHERE `deleted` = 0 AND `disabled` = 0 AND `position_id` = 1 ORDER BY created_time DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zl_article` WHERE ( article_id =34 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+

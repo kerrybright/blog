@@ -1,0 +1,52 @@
+<extend name="Common/base"/>
+<block name="main">
+    <div style="padding: 10px;">
+        <button class="layui-btn" onclick="layer.open({type: 2, area: ['500px', '400px'], fix: false, maxmin: true,content: 'add'});">添加<i class="layui-icon">&#xe608;</i></button>
+        <table class="layui-table">
+            <colgroup>
+                <col width="150">
+                <col width="200">
+                <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>类别编号</th>
+                <th>类别名称</th>
+                <th>描述</th>
+                <th>禁用</th>
+                <th>显示顺序</th>
+                <th>创建时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <foreach name="articleList" item="list">
+                <tr>
+                    <td>{$list['category_id']}</td>
+                    <td>{$list['category_name']}</td>
+                    <td>{$list['desc']}</td>
+                    <td>{$list['disabled']}</td>
+                    <td>{$list['display_order']}</td>
+                    <td>{$list['created_time']}</td>
+                    <td class="text-center">
+                        <a title="删除" href="javascript:;" onclick="user_del(this, 'id', '{$list.category_id}')" class="ml-5" style="text-decoration:none">
+                            <i class="layui-icon">&#xe640;</i>
+                        </a>
+                    </td>
+                </tr>
+            </foreach>
+
+            </tbody>
+        </table>
+    </div>
+</block>
+
+<block name="loadJs">
+    <include file="Common/loadJs"/>
+    <script type="text/javascript">
+
+       layui.use('layer', function(){
+           var layer = layui.layer;
+       });
+    </script>
+</block>

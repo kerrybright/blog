@@ -1,0 +1,44 @@
+<extend name="Common/base"/>
+
+<block name="main">
+<div style="width: 100%;height: auto">
+    <div style="margin: 20px;">
+        <span style="font-size: 26px;">{$categoryInfo['category_name']}专栏</span>
+        <span>共({$categoryInfo['article_num']})篇</span>
+    </div>
+    <foreach name="articleList" item="article">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>
+                    {$article['title']}
+                </h2>
+                <p><font class="label label-success" style="border-radius: 0">{$article['category_name']}</font><font
+                        class="label label-default" style="border-radius: 0">{$article['created_time']}
+                    {$article['author']}</font></p>
+                <div class="article_list_index">
+                    <php>$contents = mb_substr($article['content'],0,200,'utf-8');</php>
+                    {$contents|html_entity_decode}.....
+                </div>
+                <p>
+                    <a class="btn" href="__MODULE__/Article/detail?article_id={$article['article_id']}">View details
+                        »</a>
+                </p>
+            </div>
+        </div>
+    </foreach>
+</div>
+	<div id="SOHUCS" sid="article_type_{$type}_{$type_id}"></div>
+</block>
+
+
+<block name="Js">
+    <script src="/__PUBLIC__/js/excanvas.js?v=1.0"></script>
+    <script src="/__PUBLIC__/js/jquery.tagcanvas.js?v=1.0"></script>
+	<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+	<script type="text/javascript">
+		window.changyan.api.config({
+			appid: 'cysXluUJ1',
+			conf: 'prod_8a8e742077dcffa8d23f5b8ce8be5e5c'
+		});
+	</script>
+</block>

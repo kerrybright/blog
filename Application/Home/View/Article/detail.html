@@ -1,0 +1,29 @@
+<extend name="Common/base"/>
+
+<block name="main">
+<div style="width: 100%;height: auto">
+    <div class="col-md-12 column">
+        <h2>
+            {$articleDetail['title']}
+        </h2>
+        <p><font class="label label-success" style="border-radius: 0">php</font><font class="label label-default" style="border-radius: 0">2017-02-25 21:41:13 周六 晴 张亮</font></p>
+        <div class="article_body">
+            {$articleDetail['content']|html_entity_decode}
+        </div>
+    </div>
+</div>
+	<div id="SOHUCS" sid="{$articleDetail['article_id']}"></div>
+</block>
+
+
+<block name="Js">
+    <script src="/__PUBLIC__/js/excanvas.js?v=1.0"></script>
+    <script src="/__PUBLIC__/js/jquery.tagcanvas.js?v=1.0"></script>
+	<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+	<script type="text/javascript">
+		window.changyan.api.config({
+			appid: 'cysXluUJ1',
+			conf: 'prod_8a8e742077dcffa8d23f5b8ce8be5e5c'
+		});
+	</script>
+</block>

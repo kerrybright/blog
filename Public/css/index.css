@@ -1,0 +1,11 @@
+.article_body{}
+.article_body p{
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+/*首页文章列表*/
+.article_list_index p{
+    text-indent:2em;
+}
