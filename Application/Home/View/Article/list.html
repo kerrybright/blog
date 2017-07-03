@@ -16,8 +16,7 @@
                         class="label label-default" style="border-radius: 0">{$article['created_time']}
                     {$article['author']}</font></p>
                 <div class="article_list_index">
-                    <php>$contents = mb_substr($article['content'],0,200,'utf-8');</php>
-                    {$contents|html_entity_decode}.....
+                    {$article['content_info']}
                 </div>
                 <p>
                     <a class="btn" href="__MODULE__/Article/detail?article_id={$article['article_id']}">View details

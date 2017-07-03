@@ -12,8 +12,7 @@
                             class="label label-default" style="border-radius: 0">{$article['created_time']}
                         {$article['author']}</font></p>
                     <div class="article_list_index">
-                        <php>$contents = mb_substr($article['content'],0,200,'utf-8');</php>
-                        {$contents}.....
+                        {$article['content_info']}
                     </div>
                     <p>
                         <a class="btn" href="__MODULE__/Article/detail?article_id={$article['article_id']}">View details
@@ -38,11 +37,11 @@
         <div class="panel panel-default">
             <div class="panel-body">
                 <p>
-                    <a class="" href="http://www.talisk.cn">talisk斯温的技术博客</a>
+                    <a class="" target="_blank" href="http://www.talisk.cn">talisk斯温的技术博客</a>
                 </p>
 
 		<p>
-                    <a class="" href="http://www.maplejoyous.cn">JerriMei的技术博客</a>
+                    <a class="" target="_blank" href="http://www.maplejoyous.cn">JerriMei的技术博客</a>
                 </p>
             </div>
         </div>

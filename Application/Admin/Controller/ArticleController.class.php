@@ -32,12 +32,15 @@ class ArticleController extends BaseController {
         $title = I('title');
         $content = I('content');
         $author = I('author');
+        $content_info = I("content_info");
 
         $data = array(
             'category_id' => $categoryId,
             'title' => $title,
             'content' => $content,
+            'content_info' => $content_info,
             'author' => $author,
+            'created_by' => "editor",
             'created_time' => date('Y-m-d H:i:s'),
         );
 

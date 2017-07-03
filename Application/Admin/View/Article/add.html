@@ -14,6 +14,7 @@
     <form class="form-horizontal" action="addPost" id="article_form" method="post">
         <!--<textarea style="width: 100%;height: 300px;" id="textarea1" name="content"></textarea>-->
         <textarea style="width:100%; height:500px;"  type="text"  name="content" id="EditorId" placeholder="请输入内容"></textarea>
+	    <input type="hidden" id="content_info" name="content_info"/>
         <div class="form-group" style="margin-top: 10px;">
             <label for="title" class="col-sm-2 control-label">标题：</label>
             <div class="col-sm-10">
@@ -40,7 +41,7 @@
         <div class="form-group">
             <label class="col-sm-2 control-label"></label>
             <div class="col-sm-10">
-                <input type="submit" id="article_submit" value="提交" class="btn btn-primary">
+                <input type="button" id="article_submit" value="提交" class="btn btn-primary">
                 <input type="reset" value="重置" class="btn btn-primary">
             </div>
         </div>
@@ -84,6 +85,12 @@
         });
         editor.render("EditorId");//此处的EditorId与<textarea name="content" id="EditorId">的id值对应 </textarea>
     }
+     $("#article_submit").click(function(){
+         var content_info = UE.getEditor('EditorId').getContentTxt().substr(0,300)+".....";
+         $("#content_info").val(content_info);
+         $("#article_form").submit();
+     });
+
 </script>
 </body>
 </html>
